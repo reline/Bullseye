@@ -15,6 +15,7 @@
 		D08E75F524F88AF100CDF1B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08E75F324F88AF100CDF1B5 /* LaunchScreen.storyboard */; };
 		D08E760024F88AF200CDF1B5 /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08E75FF24F88AF200CDF1B5 /* BullseyeTests.swift */; };
 		D08E760B24F88AF200CDF1B5 /* BullseyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08E760A24F88AF200CDF1B5 /* BullseyeUITests.swift */; };
+		D08E761924F89E1100CDF1B5 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08E761824F89E1100CDF1B5 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D08E760624F88AF200CDF1B5 /* BullseyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullseyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08E760A24F88AF200CDF1B5 /* BullseyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeUITests.swift; sourceTree = "<group>"; };
 		D08E760C24F88AF200CDF1B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08E761824F89E1100CDF1B5 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				D08E75E824F88AEF00CDF1B5 /* AppDelegate.swift */,
 				D08E75EA24F88AEF00CDF1B5 /* SceneDelegate.swift */,
 				D08E75EC24F88AEF00CDF1B5 /* ViewController.swift */,
+				D08E761824F89E1100CDF1B5 /* AboutViewController.swift */,
 				D08E75EE24F88AEF00CDF1B5 /* Main.storyboard */,
 				D08E75F124F88AF100CDF1B5 /* Assets.xcassets */,
 				D08E75F324F88AF100CDF1B5 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				D08E75ED24F88AEF00CDF1B5 /* ViewController.swift in Sources */,
 				D08E75E924F88AEF00CDF1B5 /* AppDelegate.swift in Sources */,
+				D08E761924F89E1100CDF1B5 /* AboutViewController.swift in Sources */,
 				D08E75EB24F88AEF00CDF1B5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

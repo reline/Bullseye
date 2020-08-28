@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         }
 
         let alert = UIAlertController(title: title, message: "You earned \(points) points", preferredStyle: .alert)
-        let action = UIAlertAction(title: "OK", style: .default, handler: { _ in self.startNewRound()
+        let action = UIAlertAction(title: "OK", style: .default, handler: { action in self.startNewRound()
         })
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
