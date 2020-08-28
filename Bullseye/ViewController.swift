@@ -21,7 +21,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        startNewRound()
+        startNewGame()
     }
     
     func generateRandomValue() -> Int {
@@ -54,13 +54,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onStartOverButtonClicked() {
+        startNewGame()
+    }
+
+    func startNewGame() {
         round = 0
         score = 0
         startNewRound()
-    }
-    
-    @IBAction func onInfoButtonClicked() {
-        // todo
     }
     
     func startNewRound() {
